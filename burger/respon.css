@@ -1,0 +1,51 @@
+@media only screen and (max-width:1174px){
+    .details h5{
+        margin-left: 36px;
+    }
+    .details span{
+        margin-left: 36px;
+
+    }
+}
+
+@media only screen and (max-width:986px){
+    .details h5{
+        margin-left: 140px;
+    }
+    .details span{
+        margin-left: 140px;
+
+    }
+}
+
+@media only screen and (max-width:772px){
+    .box .img-box{
+        padding-top: 43px;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+    .box .img-box img{
+
+            width: 130px;
+    
+}
+    
+}
+@media only screen and (max-width:767px){
+
+    .we-are-content{
+        padding-top: 4x;
+        font-size: 15px;
+        text-align: center;
+    }
+
+     .img-we .img-burger img{
+        width: 100%;
+    }
+    .banner-section1{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,272 @@
+*{padding: 0; margin: 0; box-sizing;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-toggler:focus{
+  outline:none;
+  border:unset;
+  box-shadow: none;
+}
+
+/* .nav-link:hover,
+.nav-link.active{
+  color:red;
+} */
+
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: wheat;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
+
+
+
+
+
+.hero-section{
+    background: url(images/hero-bg.jpg) no-repeat  center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-wrap .nav-link{
+    color: white;
+}
+
+.active{
+  color: orange!important;
+}
+
+/* .section-nav1 .home-link{
+    color: orange!important;
+} */
+
+
+
+.section-nav1 #btn{
+    background-color:  rgb(246, 184, 68);
+    border: none;
+    border-radius: 20px;
+    transition: 0.7;
+
+}
+
+.feane-logo{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.section-nav1 #btn:hover{
+    background-color:orange;
+    border: none;
+}
+
+.hero-heading h1{
+    font-family: 'Dancing Script', cursive;
+}
+.hero-heading a{
+    background-color: rgb(246, 184, 68);
+    border: none;
+    border-radius: 20px;
+    transition: 0.7;
+    text-decoration: none;
+}
+
+.hero-heading a:hover{
+    background-color: orange;
+
+}
+
+.img-fluid{
+    /* width: 14rem; */
+    border: 4px solid orange;
+     min-width: 35px;
+    max-width: 190px; 
+}
+
+.box{
+    position: relative;
+}
+
+.box .img-box img{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.details h5{
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+
+.tasty{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+
+}
+
+.off{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.details span{
+    display: flex;
+    justify-content: space-around;
+}
+
+ 
+
+
+
+/* menu-section */
+
+.menu-heading h2{
+  font-family: 'Dancing Script', cursive;
+}
+
+.filter-section .filter button{
+  border-radius: 20px;
+}
+
+
+.pic-section .img-box img{
+  max-width: 200px;
+  position: relative;
+}
+
+.content-section .kazama{ 
+    background-color: rgb(246, 184, 68);
+    border: none;
+    border-radius: 20px;
+    transition: 0.7;
+    float: right;
+}
+
+.content-section{
+border-bottom-right-radius: 40px;
+overflow: hidden;
+}
+
+.pic-section{
+  border-top-left-radius: 40px;
+  background-color: antiquewhite!important;
+}
+
+.kazama:hover{
+    background-color: orange;
+
+}
+
+.img-box img{
+  transition: 0.4s;
+}
+
+.img-box img:hover{
+  transform: scale(1.04);
+
+}
+
+.view-more button{
+  background-color: rgb(246, 184, 68);
+  border: none;
+  width: 14rem;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+
+.view-more button:hover{
+  background-color: orange;
+}
+
+.img-we .img-burger img{
+
+  width: 79%;
+  padding-top: 20px;
+
+}
+
+.we-are-content{
+  padding-top: 80px;
+  position: relative;
+}
+
+.we-are-content h1{
+  font-family: 'Dancing Script', cursive;
+  /* font-size: 3rem; */
+  font-weight: 500;
+
+}
+
+.we-are-content button{
+  background-color: rgb(246, 184, 68);
+  border: none;
+  width: 15rem;
+  padding: 9px 15px;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+
+.we-are-content button:hover{
+background-color: orange;
+}
+
+.form-info .data-form h1{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.map-section .map-google iframe{
+  border-radius: 20px;
+}
+
+.footer-content .contact h2{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.everyday h2{
+  font-family: 'Dancing Script', cursive;
+  
+
+}
+
+.social-media h2{
+  font-family: 'Dancing Script', cursive;
+  
+}
+
+
+.copy-right span{
+  color: orange;
+  font-family: 'Dancing Script', cursive;
+}
+
+.on-scroll{
+  /* position: fixed; */
+  background-color: black;
+  box-shadow: 0 0.125rem 1.75rem 0 rgba(0,0,0,0.09);
+  transition:all .15s ease-in-out 0s;
+
+}
+
+
+
+
+@font-face {
+    font-family: font1;
+    src: url(font/font1.ttf);
+}
